@@ -5,7 +5,7 @@
 
 ## Overview
 
-This API leverages the OpenAI's `shap-e` library and Blender to generate and texture 3D meshes. It supports exporting the resulting 3D models in various file formats, including `.usdz`, `.obj`, and plans to add `.glb` and `.fbx` formats in the future. The API is particularly suitable for iOS applications that utilize the `.usdz` format.
+This API includes OpenAI's `shap-e` library and Blender to generate and texture 3D meshes. It supports exporting the resulting 3D models in various file formats, including `.usdz`, and `.obj`, and plans to add `.glb` and `.fbx` formats in the future. The API is particularly suitable for iOS applications that utilize the `.usdz` format.
 
 ## Installation
 
@@ -67,5 +67,3 @@ Should you choose CPU rendering or have a GPU with approximately 8GB of memory, 
 - Expect the `.usdz` export process to be more computationally demanding when generating detailed or complex meshes.
 
 ---
-
-**Note:** The placeholders wrapped in angle brackets (e.g., `<host_name>`) are to direct the user to replace them with actual values. Make sure to remove the angle brackets when providing the actual commands or URLs. Additionally, the use of "OpenAI's `shap-e` library" has been corrected to "the `shap-e` library" since at the time of writing, there is no information suggesting the `shap-e` library is directly associated with OpenAI.
