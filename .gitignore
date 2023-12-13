@@ -1,0 +1,11 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore virtual environment
+env/
+
+# Ignore a folder named "shap-e"
+shap-e/
+
+# Ignore a folder named "shap_e_model_cache"
+shap_e_model_cache/
